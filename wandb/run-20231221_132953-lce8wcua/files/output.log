@@ -1,0 +1,17 @@
+
+Usando cpu para entrenar
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/10], Train Loss: 0.6942, Train Acc: 58.58%, Valid Loss: 0.6574, Valid Acc: 63.73%
+Epoch [2/10], Train Loss: 0.6542, Train Acc: 63.36%, Valid Loss: 0.6258, Valid Acc: 65.20%
+Epoch [3/10], Train Loss: 0.6496, Train Acc: 63.85%, Valid Loss: 0.8698, Valid Acc: 52.45%
+Epoch [4/10], Train Loss: 0.6433, Train Acc: 64.52%, Valid Loss: 2.0303, Valid Acc: 52.45%
+Epoch [5/10], Train Loss: 0.6893, Train Acc: 55.45%, Valid Loss: 0.6923, Valid Acc: 48.04%
+Epoch [6/10], Train Loss: 0.6885, Train Acc: 56.25%, Valid Loss: 0.6819, Valid Acc: 52.45%
+Epoch [7/10], Train Loss: 0.6795, Train Acc: 59.19%, Valid Loss: 0.6809, Valid Acc: 52.45%
+Epoch [8/10], Train Loss: 0.6815, Train Acc: 55.76%, Valid Loss: 0.7038, Valid Acc: 51.96%
+Epoch [9/10], Train Loss: 0.6845, Train Acc: 55.02%, Valid Loss: 0.6897, Valid Acc: 52.45%
+Epoch [10/10], Train Loss: 0.6877, Train Acc: 57.05%, Valid Loss: 0.7072, Valid Acc: 53.92%
+Entrenamiento finalizado!

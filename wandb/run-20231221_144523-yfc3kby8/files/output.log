@@ -1,0 +1,10 @@
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Usando cpu para entrenar
+Epoch [1/10], Train Loss: 0.7589, Train Acc: 61.46%, Valid Loss: 0.8342, Valid Acc: 57.35%
+Epoch [2/10], Train Loss: 0.6074, Train Acc: 66.91%, Valid Loss: 0.7295, Valid Acc: 57.84%
+Epoch [3/10], Train Loss: 0.5707, Train Acc: 72.30%, Valid Loss: 0.7334, Valid Acc: 52.45%
+Epoch [4/10], Train Loss: 0.5154, Train Acc: 75.12%, Valid Loss: 0.6609, Valid Acc: 59.80%
+Epoch [5/10], Train Loss: 0.4702, Train Acc: 78.98%, Valid Loss: 0.6278, Valid Acc: 64.71%

@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-12-21T12:20:13.004559",
+    "startedAt": "2023-12-21T12:20:05.971462",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/susanasrez/ConvolutionalNetwork",
+        "commit": "dfbe7f3e43fec29c934449a116cd16c74a82ea37"
+    },
+    "email": "susanasuarezmendoza26@gmail.com",
+    "root": "C:/Users/Susana/Desktop/Universidad/Tercero/Primer/AA2/project/ConvolutionalNetwork",
+    "host": "LAPTOP-CDJPJQCJ",
+    "username": "Susana",
+    "executable": "c:\\Users\\Susana\\anaconda3\\envs\\aa2\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2701.0,
+        "min": 0.0,
+        "max": 2701.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2701.0,
+            "min": 0.0,
+            "max": 2701.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 952.7656211853027,
+            "used": 473.22058486938477
+        }
+    },
+    "memory": {
+        "total": 15.650932312011719
+    }
+}
