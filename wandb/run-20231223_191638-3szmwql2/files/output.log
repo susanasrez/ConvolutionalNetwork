@@ -1,0 +1,65 @@
+
+Usando cpu para entrenar
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Fold 1/5
+Epoch [1/10], Train Loss: 0.7027, Train Acc: 52.66%, Valid Loss: 0.6674, Valid Acc: 52.45%
+Epoch [2/10], Train Loss: 0.6875, Train Acc: 57.02%, Valid Loss: 0.6679, Valid Acc: 54.08%
+Epoch [3/10], Train Loss: 0.6510, Train Acc: 61.65%, Valid Loss: 0.6213, Valid Acc: 67.12%
+Epoch [4/10], Train Loss: 0.6333, Train Acc: 64.24%, Valid Loss: 0.6339, Valid Acc: 62.50%
+Epoch [5/10], Train Loss: 0.6281, Train Acc: 63.90%, Valid Loss: 0.6114, Valid Acc: 68.75%
+Epoch [6/10], Train Loss: 0.6051, Train Acc: 67.92%, Valid Loss: 0.6099, Valid Acc: 66.58%
+Epoch [7/10], Train Loss: 0.5933, Train Acc: 69.69%, Valid Loss: 0.6436, Valid Acc: 62.50%
+Epoch [8/10], Train Loss: 0.6185, Train Acc: 66.96%, Valid Loss: 0.6190, Valid Acc: 66.03%
+Epoch [9/10], Train Loss: 0.5933, Train Acc: 68.80%, Valid Loss: 0.6375, Valid Acc: 62.23%
+Epoch [10/10], Train Loss: 0.5980, Train Acc: 67.98%, Valid Loss: 0.6087, Valid Acc: 66.03%
+Fold 2/5
+Epoch [1/10], Train Loss: 0.6123, Train Acc: 68.01%, Valid Loss: 0.5870, Valid Acc: 71.39%
+Epoch [2/10], Train Loss: 0.6009, Train Acc: 68.48%, Valid Loss: 0.5611, Valid Acc: 72.21%
+Epoch [3/10], Train Loss: 0.5929, Train Acc: 68.28%, Valid Loss: 0.5957, Valid Acc: 67.57%
+Epoch [4/10], Train Loss: 0.5835, Train Acc: 70.66%, Valid Loss: 0.5761, Valid Acc: 70.30%
+Epoch [5/10], Train Loss: 0.5630, Train Acc: 70.66%, Valid Loss: 0.6112, Valid Acc: 65.94%
+Epoch [6/10], Train Loss: 0.5674, Train Acc: 71.89%, Valid Loss: 0.5872, Valid Acc: 70.57%
+Epoch [7/10], Train Loss: 0.5482, Train Acc: 73.18%, Valid Loss: 0.5981, Valid Acc: 66.76%
+Epoch [8/10], Train Loss: 0.5344, Train Acc: 73.25%, Valid Loss: 0.5919, Valid Acc: 70.30%
+Epoch [9/10], Train Loss: 0.5375, Train Acc: 73.45%, Valid Loss: 0.6130, Valid Acc: 65.94%
+Epoch [10/10], Train Loss: 0.5591, Train Acc: 71.75%, Valid Loss: 0.6156, Valid Acc: 64.85%
+Fold 3/5
+Epoch [1/10], Train Loss: 0.5771, Train Acc: 69.78%, Valid Loss: 0.5137, Valid Acc: 73.57%
+Epoch [2/10], Train Loss: 0.5636, Train Acc: 71.55%, Valid Loss: 0.4961, Valid Acc: 77.93%
+Epoch [3/10], Train Loss: 0.5716, Train Acc: 70.80%, Valid Loss: 0.5065, Valid Acc: 76.29%
+Epoch [4/10], Train Loss: 0.5627, Train Acc: 71.75%, Valid Loss: 0.5020, Valid Acc: 77.93%
+Epoch [5/10], Train Loss: 0.5353, Train Acc: 73.66%, Valid Loss: 0.4991, Valid Acc: 76.57%
+Epoch [6/10], Train Loss: 0.5464, Train Acc: 72.36%, Valid Loss: 0.5005, Valid Acc: 76.57%
+Epoch [7/10], Train Loss: 0.5200, Train Acc: 74.95%, Valid Loss: 0.5151, Valid Acc: 74.39%
+Epoch [8/10], Train Loss: 0.5016, Train Acc: 75.90%, Valid Loss: 0.5121, Valid Acc: 75.20%
+Epoch [9/10], Train Loss: 0.5508, Train Acc: 71.55%, Valid Loss: 0.5654, Valid Acc: 70.03%
+Epoch [10/10], Train Loss: 0.5317, Train Acc: 72.16%, Valid Loss: 0.5525, Valid Acc: 72.75%
+Fold 4/5
+Epoch [1/10], Train Loss: 0.5336, Train Acc: 73.45%, Valid Loss: 0.4297, Valid Acc: 83.38%
+Epoch [2/10], Train Loss: 0.5356, Train Acc: 73.52%, Valid Loss: 0.4574, Valid Acc: 80.11%
+Epoch [3/10], Train Loss: 0.5142, Train Acc: 74.47%, Valid Loss: 0.4736, Valid Acc: 80.38%
+Epoch [4/10], Train Loss: 0.5076, Train Acc: 74.95%, Valid Loss: 0.4571, Valid Acc: 80.93%
+Epoch [5/10], Train Loss: 0.4987, Train Acc: 76.31%, Valid Loss: 0.4828, Valid Acc: 77.93%
+Epoch [6/10], Train Loss: 0.5245, Train Acc: 72.50%, Valid Loss: 0.5016, Valid Acc: 78.47%
+Epoch [7/10], Train Loss: 0.5105, Train Acc: 75.43%, Valid Loss: 0.4910, Valid Acc: 78.75%
+Epoch [8/10], Train Loss: 0.4985, Train Acc: 74.95%, Valid Loss: 0.5017, Valid Acc: 76.84%
+Epoch [9/10], Train Loss: 0.5074, Train Acc: 74.06%, Valid Loss: 0.4874, Valid Acc: 77.38%
+Epoch [10/10], Train Loss: 0.4970, Train Acc: 74.68%, Valid Loss: 0.5211, Valid Acc: 74.66%
+Fold 5/5
+Epoch [1/10], Train Loss: 0.5493, Train Acc: 73.32%, Valid Loss: 0.4868, Valid Acc: 78.47%
+Epoch [2/10], Train Loss: 0.5163, Train Acc: 73.66%, Valid Loss: 0.4258, Valid Acc: 82.83%
+Epoch [3/10], Train Loss: 0.5039, Train Acc: 74.81%, Valid Loss: 0.4437, Valid Acc: 82.29%
+Epoch [4/10], Train Loss: 0.5117, Train Acc: 74.61%, Valid Loss: 0.4545, Valid Acc: 81.74%
+Epoch [5/10], Train Loss: 0.4848, Train Acc: 75.90%, Valid Loss: 0.4522, Valid Acc: 79.02%
+Epoch [6/10], Train Loss: 0.5057, Train Acc: 74.61%, Valid Loss: 0.4944, Valid Acc: 75.75%
+Epoch [7/10], Train Loss: 0.4911, Train Acc: 75.02%, Valid Loss: 0.5240, Valid Acc: 75.75%
+Epoch [8/10], Train Loss: 0.5037, Train Acc: 75.49%, Valid Loss: 0.5342, Valid Acc: 74.39%
+Epoch [9/10], Train Loss: 0.4795, Train Acc: 75.43%, Valid Loss: 0.5218, Valid Acc: 74.39%
+Epoch [10/10], Train Loss: 0.4666, Train Acc: 76.31%, Valid Loss: 0.5810, Valid Acc: 72.48%
+Entrenamiento finalizado!
+[[61 36]
+ [12 96]]
+Test Accuracy: 76.59%
