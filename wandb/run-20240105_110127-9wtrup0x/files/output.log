@@ -1,0 +1,25 @@
+
+Usando cpu para entrenar
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Fold 1/5
+Epoch [1/10], Train Loss: 0.7014, Train Acc: 54.70%, Valid Loss: 0.6759, Valid Acc: 59.51%
+Epoch [2/10], Train Loss: 0.6759, Train Acc: 58.11%, Valid Loss: 0.6607, Valid Acc: 64.13%
+Epoch [3/10], Train Loss: 0.6495, Train Acc: 61.65%, Valid Loss: 0.6568, Valid Acc: 63.32%
+Epoch [4/10], Train Loss: 0.6254, Train Acc: 63.56%, Valid Loss: 0.6514, Valid Acc: 64.95%
+Epoch [5/10], Train Loss: 0.6365, Train Acc: 64.44%, Valid Loss: 0.6538, Valid Acc: 63.59%
+Epoch [6/10], Train Loss: 0.6033, Train Acc: 66.96%, Valid Loss: 0.6684, Valid Acc: 63.86%
+Epoch [7/10], Train Loss: 0.5962, Train Acc: 67.71%, Valid Loss: 0.6718, Valid Acc: 62.50%
+Epoch [8/10], Train Loss: 0.5754, Train Acc: 68.80%, Valid Loss: 0.6681, Valid Acc: 64.95%
+Epoch [9/10], Train Loss: 0.5884, Train Acc: 68.19%, Valid Loss: 0.6573, Valid Acc: 64.95%
+Epoch [10/10], Train Loss: 0.5841, Train Acc: 68.05%, Valid Loss: 0.6567, Valid Acc: 63.86%
+Fold 2/5
+Epoch [1/10], Train Loss: 0.5908, Train Acc: 69.30%, Valid Loss: 0.5159, Valid Acc: 76.57%
+Epoch [2/10], Train Loss: 0.6114, Train Acc: 66.85%, Valid Loss: 0.5720, Valid Acc: 71.12%
+Epoch [3/10], Train Loss: 0.6163, Train Acc: 67.53%, Valid Loss: 0.5740, Valid Acc: 73.57%
+Epoch [4/10], Train Loss: 0.5835, Train Acc: 68.96%, Valid Loss: 0.5361, Valid Acc: 74.66%
+Epoch [5/10], Train Loss: 0.5661, Train Acc: 71.20%, Valid Loss: 0.5556, Valid Acc: 73.57%
+Usando cpu para entrenar
+Test Accuracy: 84.39%
