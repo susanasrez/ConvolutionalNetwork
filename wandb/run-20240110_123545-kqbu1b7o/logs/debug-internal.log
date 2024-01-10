@@ -1,0 +1,5 @@
+2024-01-10 12:35:45,848 INFO    StreamThr :14920 [internal.py:wandb_internal():86] W&B internal server running at pid: 14920, started at: 2024-01-10 12:35:45.847574
+2024-01-10 12:35:45,852 DEBUG   HandlerThread:14920 [handler.py:handle_request():146] handle_request: status
+2024-01-10 12:35:45,861 INFO    WriterThread:14920 [datastore.py:open_for_write():85] open: c:\Users\Susana\Desktop\Universidad\Tercero\Primer\AA2\project\ConvolutionalNetwork\wandb\run-20240110_123545-kqbu1b7o\run-kqbu1b7o.wandb
+2024-01-10 12:35:45,863 DEBUG   SenderThread:14920 [sender.py:send():382] send: header
+2024-01-10 12:35:45,919 DEBUG   SenderThread:14920 [sender.py:send():382] send: run
