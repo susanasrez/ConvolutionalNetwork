@@ -19,3 +19,23 @@ config: {}
 2024-01-10 12:35:45,861 INFO    MainThread:23048 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
 2024-01-10 12:35:45,861 INFO    MainThread:23048 [wandb_init.py:init():716] updated telemetry
 2024-01-10 12:35:45,919 INFO    MainThread:23048 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-01-10 12:35:46,964 INFO    MainThread:23048 [wandb_run.py:_on_init():2254] communicating current version
+2024-01-10 12:35:47,954 WARNING MainThread:23048 [wandb_init.py:init():1192] interrupted
+Traceback (most recent call last):
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\wandb\sdk\wandb_init.py", line 1170, in init
+    run = wi.init()
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\wandb\sdk\wandb_init.py", line 798, in init
+    run._on_init()
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\wandb\sdk\wandb_run.py", line 2258, in _on_init
+    version_result = version_handle.wait(timeout=30)
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "c:\Users\Susana\anaconda3\envs\aa2\lib\threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
