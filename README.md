@@ -14,7 +14,7 @@ El repositorio está organizado de la siguiente manera:
 
 - `proyecto.ipynb`: Un archivo Jupyter Notebook que contiene el código del entrenamiento y la validación del modelo.
 
-- `memoria.pdf`: Un archivo PDF que contiene el artículo científico de la explicación del proyecto.
+- `Memoria.pdf`: Un archivo PDF que contiene el artículo científico de la explicación del proyecto.
 
 - `real_and_fake_face/`: Una carpeta que contiene los datos utilizados para entrenar el modelo.
 
