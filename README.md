@@ -12,7 +12,7 @@ Los resultados más destacados de esta investigación muestran un impresionante 
 
 El repositorio está organizado de la siguiente manera:
 
-- `proyecto.ipynb`: Un archivo Jupyter Notebook que contiene el código del entrenamiento y la validación del modelo.
+- `Proyecto.ipynb`: Un archivo Jupyter Notebook que contiene el código del entrenamiento y la validación del modelo.
 
 - `Memoria.pdf`: Un archivo PDF que contiene el artículo científico de la explicación del proyecto.
 
