@@ -46,4 +46,4 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python antes de eje
 
 Este estudio fue realizado por Susana Suárez Mendoza y Mara Pareja del Pino como parte de la realización de una práctica de la asignatura Aprendizaje Automático II impartida en el grado de Ciencia e Ingeniería de Datos de la universidad de Las Palmas de Gran Canaria. 
 
-
+- [Mara Pareja](https://github.com/marapareja17)
